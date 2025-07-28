@@ -30,7 +30,8 @@ import {
   multi,
 
   chat,
-  ir
+  ir,
+  demo
 
 } from "../assets";
 
@@ -266,6 +267,19 @@ const projects = [
   ],
   image: ir, // Add your image import if available
   source_code_link: "https://github.com/Priya0422/ExplainingThroughInterface" // If public
+},
+
+  {
+  name: "Face and Emotion Detection",
+  description:
+    "Deep learning-based system that analyzes facial expressions in real-time.Built using CNN architecture for accurate face and emotion recognition from images.",
+  tags: [
+    { name: "python", color: "blue-text-gradient" },
+    { name: "CNN", color: "green-text-gradient" },
+   
+  ],
+  image: demo, // Add your image import if available
+  source_code_link: "https://github.com/Priya0422/Face-and-Emotion-Detection" // If public
 },
   // {
   //   name: "Multi-Armed Bandits",

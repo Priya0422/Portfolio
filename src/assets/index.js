@@ -49,6 +49,7 @@ import multi from "./multi.avif"
 
 import chat from "./chat.png";
 import ir from "./ir.png";
+import demo from "./demo.jpeg";
 
 
 export {
@@ -93,4 +94,5 @@ export {
 
   chat,
   ir,
+  demo,
 };
